@@ -11,7 +11,7 @@ Route::get('/welcome', function () {
 });
 
 Route::get('/about', function () {
-    return "Test test";
+    return view('about');
 });
 
 Route::get('/login', function () {
