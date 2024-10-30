@@ -28,6 +28,8 @@
             <!-- Top Bar -->
             <div class="bg-white rounded-lg shadow p-4 flex justify-between items-center">
                 <h1 class="text-2xl font-bold text-orange-500">Paperite</h1>
+                <a href="{{ route('about') }}">About Paperite</a>
+                <a href="{{ route('login') }}">Login</a>
             </div>
 
             <!-- Notes and content -->

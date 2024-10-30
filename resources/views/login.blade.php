@@ -15,6 +15,7 @@
             <input type="password" class="w-full px-4 py-3 mb-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-400" placeholder="Password" name="password" id="password" required>
             <button type="submit" class="w-full bg-orange-500 text-white py-3 rounded-lg hover:bg-orange-600 transition duration-200">Log In</button>
             <a href="#" class="block mt-4 text-orange-500 text-sm hover:underline">Forgot password?</a>
+            <a href="{{ route('home') }}" class="block mt-4 text-orange-500 text-sm hover:underline">Back to Home</a>
         </form>
     </div>
 

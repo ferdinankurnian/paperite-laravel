@@ -11,5 +11,6 @@
             About me
         </h1>
     </header>
+    <a href="{{ route('home') }}">Back to Home</a>
 </body>
 </html>
